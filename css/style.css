@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Heebo', sans-serif;
+
+    
+}
+
+body{
+    background-image: url('../pic/moon.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+ 
+   
+    
+}
+
+header{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-right: 6rem;
+   
+    
+}
+div > a:hover{
+    text-shadow: 0px -1px 14px rgba(255,255,255,0.65);
+    
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.background{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+span{
+    display: block;
+    text-align: center;
+}
+.text{
+    color: #fff;
+    font-size: 50px;
+    padding-bottom: 10px;
+    font-weight: bold;
+
+}
+.loading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    
+    
+}
+
+.loading img{
+    background-color: blue;
+    border-radius: 5px;
+    box-shadow: -2px 5px 17px -2px rgba(0,0,0,0.79);
+    
+   
+    
+}
+.loading :nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+    
+}
+.loading :nth-child(3){
+
+    display: inline;
+    position: relative;
+    right : 137px;
+    top: 3px;
+
+}
+.loading :nth-child(4){
+    display: inline;
+    position: relative;
+    top: -15px;
+    right: -130px;
+}
+
+.bt{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+.button{
+    padding: 5px 25px;
+    background-color: rgb(144, 233, 221);
+    border:1px  #fff;
+    cursor: pointer;
+    width: fit-content;
+    font-weight: bold;
+}
+.button:hover{
+    box-shadow: none 0 2px 4px;
+    transform: translateY(-1px);
+   
+    
+}
+
+.button_link{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    padding-top: 30px;
+}
+.button_link a {
+    border-radius: 15px;
+    width: 25px;
+    height: 25px;
+    border:1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.button_link a:hover{
+    background-color: #1877F2;
+}
+.button_link a:hover:nth-child(2){
+    background-color: #1DA1F2;
+}
+.button_link a:hover:nth-child(3){
+    background-color:#2867B2;
+}
+.button_link a:hover:nth-child(4){
+    background-color: red; 
+}
+footer {
+   
+    border-top: 1px solid gray;
+    margin: 0;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    padding-top: 10px;
+    text-align: center;
+    color: #fff;
+    width: 92%;
+}
